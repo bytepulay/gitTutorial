@@ -12,13 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
-Route::get('/', 'HomeController@index');
 
 Route::get('/clear', function () {
     Artisan::call('config:cache');
